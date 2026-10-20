@@ -14,6 +14,18 @@
   <strong>Learning Long-Horizon Search through Attributed Research-State Transitions</strong>
 </p>
 
+<p align="center">
+  <a href="https://arxiv.org/abs/2610.25980">
+    <img src="https://img.shields.io/badge/arXiv-2610.25980-B31B1B?logo=arxiv&logoColor=white" alt="arXiv">
+  </a>
+  <a href="https://huggingface.co/wangyicheng992/ClueFlow-35B">
+    <img src="https://img.shields.io/badge/Hugging%20Face-Model-FFD21E?logo=huggingface" alt="Hugging Face Model">
+  </a>
+  <a href="https://huggingface.co/datasets/wangyicheng992/ClueFlow-SFT">
+    <img src="https://img.shields.io/badge/Hugging%20Face-Data-FFD21E?logo=huggingface" alt="Hugging Face Data">
+  </a>
+</p>
+
 ## Overview
 
 **ClueFlow** is a stateful search agent harness that provides a unified research-state interface for **long-horizon inference, trajectory generation, and post-training**.
@@ -44,4 +56,30 @@ These attributed transitions provide a shared foundation for **SFT data construc
 
 ## Release Status
 
-The ClueFlow source code, documentation, and research artifacts will be released soon. Please stay tuned for updates.
+The ClueFlow paper is available on [arXiv](https://arxiv.org/abs/2610.25980). The source code and additional research artifacts will be released soon. Please stay tuned for updates.
+
+## Citation
+
+If you find ClueFlow useful in your research, please consider citing our paper:
+
+```bibtex
+@misc{wang2026clueflow,
+  title={ClueFlow: Learning Long-Horizon Search through Attributed Research-State Transitions},
+  author={Yicheng Wang and Wentao Tan and Yidan Huang and Yifei Liu and Qiong Cao},
+  year={2026},
+  eprint={2610.25980},
+  archivePrefix={arXiv},
+  primaryClass={cs.AI},
+  url={https://arxiv.org/abs/2610.25980}
+}
+```
+
+## Acknowledgements
+
+We thank [GLM-5](https://github.com/zai-org/GLM-5),
+[Qwen3 (QwenLM)](https://github.com/QwenLM/Qwen3),
+[REDSearcher](https://github.com/RedSearchAgent/REDSearcher),
+[OpenResearcher](https://github.com/TIGER-AI-Lab/OpenResearcher),
+[MS-SWIFT](https://github.com/modelscope/ms-swift), and
+[slime](https://github.com/THUDM/slime) for their open-source research, models,
+datasets, and training infrastructure.
